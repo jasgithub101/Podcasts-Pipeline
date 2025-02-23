@@ -8,7 +8,7 @@ import pendulum
 from airflow.providers.sqlite.operators.sqlite import SqliteOperator
 from airflow.providers.sqlite.hooks.sqlite import SqliteHook
 
-PODCAST_URL = "https://www.marketplace.org/feed/podcast/marketplace/"
+PODCAST_URL = ""
 EPISODE_FOLDER = "C:/Users/jaswanth/Airflow Workspace/airflow-docker/dags/episodes"
 
 @dag(
